@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appdeployment:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:appdeployment="http://www.ibm.com/websphere/appserver/schemas/5.0/appdeployment.xmi" xmi:id="Deployment_1111496257966">
+  <deployedObject xmi:type="appdeployment:ApplicationDeployment" xmi:id="ApplicationDeployment_1111496257966" startingWeight="10">
+    <modules xmi:type="appdeployment:EJBModuleDeployment" xmi:id="EJBModuleDeployment_1111588226565" startingWeight="5000" uri="WFT_EJB.jar"/>
+    <modules xmi:type="appdeployment:EJBModuleDeployment" xmi:id="EJBModuleDeployment_1112349366739" startingWeight="5000" uri="EMPB_EBANKEJB.jar"/>
+    <modules xmi:type="appdeployment:WebModuleDeployment" xmi:id="WebModuleDeployment_1135072703754" startingWeight="10000" uri="EMPB_EBANKWeb.war"/>
+    <modules xmi:type="appdeployment:WebModuleDeployment" xmi:id="WebModuleDeployment_1135072703755" startingWeight="10000" uri="EMPB_MBANKWeb.war"/>
+    <modules xmi:type="appdeployment:WebModuleDeployment" xmi:id="WebModuleDeployment_1135072703756" startingWeight="10000" uri="WFTGC.war"/>
+    <modules xmi:type="appdeployment:EJBModuleDeployment" xmi:id="EJBModuleDeployment_1135072703754" startingWeight="5000" uri="WFT_Properties.jar"/>
+    <modules xmi:type="appdeployment:WebModuleDeployment" xmi:id="WebModuleDeployment_1268224221359" startingWeight="10000" uri="EMPB_IVRBANK.war"/>
+    <modules xmi:type="appdeployment:WebModuleDeployment" xmi:id="WebModuleDeployment_1272625937557" startingWeight="10000" uri="EMPB_EBANKiphone.war"/>
+    <classloader xmi:id="Classloader_1111496257966" mode="PARENT_FIRST">
+      <libraries xmi:id="LibraryRef_1272625937557" libraryName="EBANKING_EXT_LIBS"/>
+    </classloader>
+  </deployedObject>
+</appdeployment:Deployment>

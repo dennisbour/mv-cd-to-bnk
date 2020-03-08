@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application id="Application_ID" version="1.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/application_1_4.xsd">
+	<display-name>
+	EMPB_EBANK</display-name>
+	<module id="EjbModule_1135071961329">
+		<ejb>EMPB_EBANKEJB.jar</ejb>
+	</module>
+	<module id="EjbModule_1135071961330">
+		<ejb>WFT_EJB.jar</ejb>
+	</module>
+	<module id="WebModule_1135072703317">
+		<web>
+			<web-uri>EMPB_EBANKWeb.war</web-uri>
+			<context-root>EMPB_EBANKWeb</context-root>
+		</web>
+	</module>
+	<module id="WebModule_1135072703318">
+		<web>
+			<web-uri>EMPB_MBANKWeb.war</web-uri>
+			<context-root>EMPB_MBANKWeb</context-root>
+		</web>
+	</module>
+	<module id="WebModule_1135072703332">
+		<web>
+			<web-uri>WFTGC.war</web-uri>
+			<context-root>WFTGC</context-root>
+		</web>
+	</module>
+	<module id="EjbModule_1135072703332">
+		<ejb>WFT_Properties.jar</ejb>
+	</module>
+	<module id="WebModule_1144997106765">
+		<web>
+			<web-uri>EMPB_IVRBANK.war</web-uri>
+			<context-root>EMPB_IVRBANK</context-root>
+		</web>
+	</module>
+	<module id="WebModule_1268396342784">
+		<web>
+			<web-uri>EMPB_EBANKiphone.war</web-uri>
+			<context-root>EMPB_EBANKiphone</context-root>
+		</web>
+	</module>
+	<module id="WebModule_1306153263068">
+		<web>
+			<web-uri>EMPB_EBANKWeb2.war</web-uri>
+			<context-root>EMPB_EBANKWeb2</context-root>
+		</web>
+	</module>
+</application>
+
+ 

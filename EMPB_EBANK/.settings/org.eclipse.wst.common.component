@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="EMPB_EBANK">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="EMPB_EBANKEJB.jar" deploy-path="/" handle="module:/resource/EMPB_EBANKEJB/EMPB_EBANKEJB">
+            <dependent-object>EjbModule_1135071961329</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="WFT_EJB.jar" deploy-path="/" handle="module:/resource/WFT_EJB/WFT_EJB">
+            <dependent-object>EjbModule_1135071961330</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="EMPB_EBANKWeb.war" deploy-path="/" handle="module:/resource/EMPB_EBANKWeb/EMPB_EBANKWeb">
+            <dependent-object>WebModule_1135072703317</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="EMPB_MBANKWeb.war" deploy-path="/" handle="module:/resource/EMPB_MBANKWeb/EMPB_MBANKWeb">
+            <dependent-object>WebModule_1135072703318</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="WFTGC.war" deploy-path="/" handle="module:/resource/WFTGC/WFTGC">
+            <dependent-object>WebModule_1135072703332</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="WFT_Properties.jar" deploy-path="/" handle="module:/resource/WFT_Properties/WFT_Properties">
+            <dependent-object>EjbModule_1135072703332</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="EMPB_IVRBANK.war" deploy-path="/" handle="module:/resource/EMPB_IVRBANK/EMPB_IVRBANK">
+            <dependent-object>WebModule_1144997106765</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="EMPB_EBANKiphone.war" deploy-path="/" handle="module:/resource/EMPB_EBANKiphone/EMPB_EBANKiphone">
+            <dependent-object>WebModule_1268396342784</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="EMPB_EBANKWeb2.war" deploy-path="/" handle="module:/resource/EMPB_EBANKWeb2/EMPB_EBANKWeb2">
+            <dependent-object>WebModule_1306153263068</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="EMPB_Commons.jar" deploy-path="/" handle="module:/resource/EMPB_Commons/EMPB_Commons">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="WFTP_Common.jar" deploy-path="/" handle="module:/resource/WFTP_Common/WFTP_Common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="WFT_Utility.jar" deploy-path="/" handle="module:/resource/WFT_Utility/WFT_Utility">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="EMPB_EBANKEJBClient.jar" deploy-path="/" handle="module:/resource/EMPB_EBANKEJBClient/EMPB_EBANKEJBClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
